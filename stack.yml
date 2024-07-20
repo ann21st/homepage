@@ -1,0 +1,11 @@
+name: homepage
+
+services:
+  app:
+    image: seanscraft/homepage:0.0.1
+    build:
+      target: prod
+    init: true
+    tty: true
+    ports:
+      - "8000:8000"

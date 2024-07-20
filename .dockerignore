@@ -1,0 +1,7 @@
+stack.yml
+.gitignore
+Dockerfile
+LICENSE
+Makefile
+README.md
+.idea

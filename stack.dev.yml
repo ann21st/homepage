@@ -1,0 +1,9 @@
+services:
+  app:
+    image: seanscraft/homepage:dev
+    build:
+      target: dev
+    volumes:
+      - .:/usr/src/app
+    ports:
+      - 5000:5000
